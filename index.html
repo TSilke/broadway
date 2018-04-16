@@ -10,25 +10,33 @@
     margin-left: auto;
     margin-right: auto;
     }
+  div.bgimg {
+    background-image: url('resources/images/the-flatiron-building.png');
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
     </style>
   </head>
   <body>
     <!--Header-->
-<div class="header">
-  <div id="Home">
-      </div>
-  <h1>Broadway Design</h1><br>
-  <nav>
-    <h4><a href="#">Home</a></h4>
-    <h4><a href="#">Process</a></h4>
-    <h4><a href="#">Work</a></h4>
-    <h4><a href="#">Team</a></h4>
-    <h4><a href="#">Contact</a></h4><br>
-  </nav>
+  <div class="bgimg" id="home">
+    <p>
+      <h1>Broadway Design</h1><br>
+      <nav>
+        <h4><a href="#">Home</a></h4>
+        <h4><a href="#">Process</a></h4>
+        <h4><a href="#">Work</a></h4>
+        <h4><a href="#">Team</a></h4>
+        <h4><a href="#">Contact</a></h4><br>
+      </nav>
+    </p>
 </div>
       <!--Section Title-->
+<div id="about">
       <h2>Our Process</h2>
-          <!--Subsection 1-->
+</div>
+                <!--Subsection 1-->
           <div id="identify">
             <img src="./resources/images/identify.svg" class="centerImage" alt="squiggly arrow pointed right" >
             <h3>Identify</h3>
@@ -44,14 +52,16 @@
             <p>We put everything we have into our work.</p><br>
 
     <!--Bottom Section-->
-    <h3>Designed in New York</h3><br>
-
+<div class="bgimg">
+      <h3>Designed in New York</h3>
+</div>
     <h3>Portfolio</h3>
 
     <p>Coming Soon</p>
-
-    <h3>Team</h3>
-    <p>We're Hiring!</p>
+<div id="team">
+  <h3>Team</h3>
+  <p>We're Hiring!</p>
+</div>
 
 <div id="contact">
   <h3>Contact</h3><
@@ -61,7 +71,7 @@
   </div>
         <!--Footer-->
     <div id="footer">
-      <p><a href="#home">Home</a> <a href="#">About</a> <a href="#contact">Contact</a> <a href="#work">Work</a> <a href="#team">Team</a></p>
+      <p><a href="#home">Home</a> <a href="#about">About</a> <a href="#contact">Contact</a> <a href="#work">Work</a> <a href="#team">Team</a></p>
     </div>
   </body>
 </html>
