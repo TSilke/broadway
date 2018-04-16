@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: Helvetica;
+  text-align: center;
+}
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+background-image: image();
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  }
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+  }
+h4 {
+  font-size: 18px
+  }
+p {
+  font-size: 14px;
+  }
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
