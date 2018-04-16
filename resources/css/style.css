@@ -1,7 +1,7 @@
-h1,
+
 h2,
 h3,
-h4,
+.header,
 p {
   font-family: Helvetica;
   text-align: center;
@@ -9,7 +9,7 @@ p {
 h1 {
   font-size: 70px;
   font-weight: bold;
-background-image: image();
+
 h2 {
   font-size: 32px;
   font-weight: bold;
@@ -17,6 +17,7 @@ h2 {
 h3 {
   font-size: 23px;
   font-weight: bold;
+  background-image: url(https://github.com/TSilke/broadway/blob/master/resources/images/the-flatiron-building.png);
   }
 h4 {
   font-size: 18px
@@ -24,8 +25,11 @@ h4 {
 p {
   font-size: 14px;
   }
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  background-image: url(https://github.com/TSilke/broadway/blob/master/resources/images/the-flatiron-building.png);
 }
