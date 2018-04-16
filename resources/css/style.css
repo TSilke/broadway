@@ -17,7 +17,7 @@ h2 {
 h3 {
   font-size: 23px;
   font-weight: bold;
-  background-image: url(https://github.com/TSilke/broadway/blob/master/resources/images/the-flatiron-building.png);
+
   }
 h4 {
   font-size: 18px
@@ -25,11 +25,14 @@ h4 {
 p {
   font-size: 14px;
   }
-.centerImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
+h3,
 .header {
   background-image: url(https://github.com/TSilke/broadway/blob/master/resources/images/the-flatiron-building.png);
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+p.footer {
+  text-align: left;
 }
