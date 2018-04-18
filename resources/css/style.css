@@ -28,6 +28,9 @@ h4 {
 p {
   font-size: 14px;
   }
-a.class {
+.wrap {
   text-align: left;
+}
+.wrap . left {
+  float: left;
 }
